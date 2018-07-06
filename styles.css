@@ -1,0 +1,69 @@
+.container {
+    width: 500px;
+    height: 350px;
+    position: absolute;
+    background-color: #4472c5;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+	margin: auto;
+	overflow: auto;
+	text-align: center;
+}
+
+.tab {
+    display: flex;
+}
+
+.left_tab,
+.right_tab {
+    flex: 1;
+	padding: 20px;
+	width: 25%;
+}
+
+.name_label {
+    background-color: #ed7d31;
+    padding: 15px 35px;
+	border: 1px solid #ffffff;
+	overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#input-label {
+	margin: 10px;
+}
+
+.age_label {
+    background-color: #ed7d31;
+    padding: 15px 89px;
+    border: 1px solid #ffffff;
+}
+
+.label {
+    color: #ffffff;
+    font-family: 'Arial';
+}
+
+input {
+    padding: 16px;
+    background-color: #ed7d31;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+
+.btn_container {
+    width: 150px;
+    margin: 40px auto;
+}
+
+.submit_btn {
+    width: 150px;
+    padding: 15px;
+    background-color: #ed7d31;
+    border: 1px solid #ffffff;
+    font-family: 'Arial';
+    color: #ffffff;
+    cursor: pointer;
+}
